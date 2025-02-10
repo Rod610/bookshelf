@@ -109,7 +109,9 @@ function UnauthenticatedApp() {
 }
 
 // 🐨 change this to a default export
-export {UnauthenticatedApp}
+//export {UnauthenticatedApp}
+
+export default UnauthenticatedApp
 
 // 🐨 Unfortunately, to make this work for our workshop,
 // you need to add this to src/unauthenticated-app.js:
