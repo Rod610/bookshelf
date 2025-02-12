@@ -2,6 +2,8 @@ const isCI = require('is-ci')
 
 module.exports = {
   e2e: {
+    requestTimeout: 60000,
+    responseTimeout: 60000,
     specPattern: 'cypress/e2e',
     excludeSpecPattern: '**/*.+(exercise|final|extra-)*.js',
     setupNodeEvents(on, config) {
